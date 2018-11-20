@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
 }
 
 .centerObj {
@@ -7,18 +8,32 @@ body {
 }
 
 #secHeader{
-    width: 80%;
+    width: 100%;
     background:lightblue;
     position: relative;
     padding: 5px;
 }
 
 #contactInfo{
+    float:left;
+}
+
+#divPic {
+    position:relative;
 }
 
 #profilePic {
     height:320px;
     height:320px;
     float:right;
-    display:inline;
+}
+
+#secBody {
+    
+    display:block;
+    clear:both;
+}
+
+.mt20{
+    margin: 20px 0 0 0;
 }
